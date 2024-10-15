@@ -8,3 +8,26 @@
 //Consigli del giorno:
 //1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 //2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+//dichiaro le variabili di cui ho bisogno
+let i = 0;
+
+//stampo i numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+	//se numero multiplo di 3 E 5 stampo FizzBuzz
+	if (i % 3 === 0 && i % 5 === 0) {
+		console.log("FizzBuzz");
+	}
+	//ALTRIMENTI SE il numero è multiplo di 3 stampo FIZZ
+	else if (i % 3 === 0) {
+		console.log("Fizz");
+	}
+	//ALTRIMENTI  SE il numero è multiplo di 5 stampo BUZZ
+	else if (i % 5 === 0) {
+		console.log("Buzz");
+	}
+	//ALTRIMENTI stampo il numero normale
+	else {
+		console.log(i);
+	}
+}
