@@ -31,3 +31,27 @@ for (let i = 1; i <= 100; i++) {
 		console.log(i);
 	}
 }
+//!DICHIARO LE VARIABILI (approccio diverso)
+/* 
+//stampo i numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+	const isDivisibleBy3 = i % 3 === 0 
+	const isDivisibleBy5 = i % 5 === 0 
+	//se numero multiplo di 3 E 5 stampo FizzBuzz
+	if (const isDivisibleBy3 && const isDivisibleBy5) {
+		console.log("FizzBuzz");
+	}
+	//ALTRIMENTI SE il numero è multiplo di 3 stampo FIZZ
+	else if (const isDivisibleBy3) {
+		console.log("Fizz");
+	}
+	//ALTRIMENTI  SE il numero è multiplo di 5 stampo BUZZ
+	else if (const isDivisibleBy5) {
+		console.log("Buzz");
+	}
+	//ALTRIMENTI stampo il numero normale
+	else {
+		console.log(i);
+	}
+}
+*/
